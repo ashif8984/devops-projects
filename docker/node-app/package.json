@@ -1,0 +1,11 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "This is just a simplet node application to demonstarte the use of dockerfile to create custom image and deploy containers with it.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
