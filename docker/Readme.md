@@ -9,8 +9,8 @@
 
   Run a container
   ```
+  docker run --name linux-server -p 8080:8080 -d ubuntu #hostport:containerport
   docker run -it ubuntu
-  docker run -it ubuntu -p 8080:8080 image #hostport:containerport
   docker run -d ubuntu # background
 
   docker run -name test -itd -p 8000:8000 ashifnode #default port
